@@ -8,6 +8,19 @@ A modern, open-source e-commerce template built with **Next.js 16**, **React 19*
 ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-radix--nova-000)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/home-dark.png" />
+  <img src="docs/screenshots/home-light.png" alt="Take storefront home page: editorial hero with a featured tee, a dress and a beanie" width="100%" />
+</picture>
+
+## Preview
+
+| Catalog with filters | Product page |
+| --- | --- |
+| ![Catalog page with category, price and availability filters next to the product grid](docs/screenshots/shop.png) | ![Product page with gallery, color and size selectors and Add to bag button](docs/screenshots/product.png) |
+
+The home page follows the reader's theme above; the template ships light, dark and system modes.
+
 ## Features
 
 - **Complete storefront** — home page, catalog, product pages, cart, checkout, order confirmation, wishlist, account, about, contact, FAQ, 404 and error pages.
