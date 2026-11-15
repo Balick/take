@@ -3,7 +3,7 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
-/** Square monogram built from `siteConfig.shortName`. Decorative. */
+/** Original Take monogram: a split crossbar and a stepped T. Decorative. */
 export function LogoMark({ className }: { className?: string }) {
   return (
     <svg
@@ -13,25 +13,8 @@ export function LogoMark({ className }: { className?: string }) {
       className={cn("size-8 shrink-0", className)}
     >
       <rect width="32" height="32" rx="9" className="fill-foreground" />
-      <circle
-        cx="16"
-        cy="16"
-        r="11.5"
-        fill="none"
-        strokeWidth="0.75"
-        className="stroke-background/35"
-      />
-      <text
-        x="16"
-        y="19.6"
-        textAnchor="middle"
-        fontSize="10"
-        fontWeight="600"
-        letterSpacing="-0.4"
-        className="fill-background font-mono"
-      >
-        {siteConfig.shortName}
-      </text>
+      <path d="M8 8h16v5h-6v11h-5V13H8z" className="fill-background" />
+      <path d="M21 16h3v8h-3z" className="fill-background" />
     </svg>
   );
 }
@@ -58,7 +41,7 @@ export function Logo({ className, markOnly, onNavigate }: LogoProps) {
     >
       <LogoMark className="motion-safe:transition-transform motion-safe:duration-300 group-hover/logo:-rotate-6" />
       {!markOnly && (
-        <span className="font-display text-[1.375rem] leading-none tracking-tight whitespace-nowrap">
+        <span className="text-[1.375rem] leading-none font-semibold tracking-[-0.06em] whitespace-nowrap">
           {siteConfig.name}
         </span>
       )}

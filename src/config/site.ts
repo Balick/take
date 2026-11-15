@@ -18,11 +18,11 @@ const thresholdLabel = new Intl.NumberFormat(locale, {
  * currency, shipping and return rules are all read from this file.
  */
 export const siteConfig = {
-  name: "Seven Zero Five",
-  shortName: "705",
+  name: "Take",
+  shortName: "T",
   tagline: "Modern essentials",
   description:
-    "A modern, open-source e-commerce template built with Next.js, Tailwind CSS and shadcn/ui.",
+    "Take — considered everyday essentials in black and ivory. A fictional label and demo storefront with original product imagery.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   ogImage: "/opengraph-image",
 
@@ -45,13 +45,13 @@ export const siteConfig = {
   /** Customer service details shown on the contact page (demo values). */
   contact: {
     email: "support@example.com",
-    phone: { display: "+1 (555) 010-7050", href: "tel:+15550107050" },
+    phone: { display: "+1 (555) 010-8253", href: "tel:+15550108253" },
     hours: [
       { days: "Monday to Friday", time: "9am – 6pm ET" },
       { days: "Saturday", time: "10am – 4pm ET" },
     ],
     address: {
-      lines: ["705 Mercer Street", "New York, NY 10012", "United States"],
+      lines: ["24 Studio Lane", "New York, NY 10012", "United States"],
       note: "Studio visits by appointment only.",
     },
     responseTime: "We reply within one business day.",

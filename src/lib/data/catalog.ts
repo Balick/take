@@ -13,31 +13,31 @@ export const categories: Category[] = [
     slug: "t-shirts",
     name: "T-Shirts",
     description: "Heavyweight cotton tees with clean, considered graphics.",
-    image: "/images/t-shirt1.webp",
+    image: "/images/take/take-tee-back.webp",
   },
   {
     slug: "long-sleeves",
     name: "Long Sleeves",
     description: "Layer-ready long sleeves for cooler days and late nights.",
-    image: "/images/t-shirt-l2.webp",
+    image: "/images/take/take-long-front.webp",
   },
   {
     slug: "dresses",
     name: "Dresses",
     description: "Effortless silhouettes in soft, stretch-ribbed fabrics.",
-    image: "/images/dress.webp",
+    image: "/images/take/take-dress.webp",
   },
   {
     slug: "accessories",
     name: "Accessories",
     description: "The finishing touches: beanies, caps and everyday carry.",
-    image: "/images/bonnet.webp",
+    image: "/images/take/take-beanie.webp",
   },
   {
     slug: "drinkware",
     name: "Drinkware",
     description: "Insulated bottles that keep up with your routine.",
-    image: "/images/gourde1.webp",
+    image: "/images/take/take-bottle-loop.webp",
   },
 ];
 
@@ -57,13 +57,13 @@ export const products: Product[] = [
     category: "accessories",
     price: 32,
     compareAtPrice: 45,
-    images: ["/images/bonnet.webp"],
+    images: ["/images/take/take-beanie.webp"],
     colors: [charcoal, black],
     sizes: [],
     details: [
       "70% acrylic, 30% wool",
       "Fold-over cuff",
-      "Woven 705 badge",
+      "Woven Take badge",
       "One size fits most",
     ],
     rating: 4.8,
@@ -83,7 +83,7 @@ export const products: Product[] = [
     category: "dresses",
     price: 69,
     compareAtPrice: 119,
-    images: ["/images/dress.webp"],
+    images: ["/images/take/take-dress.webp"],
     colors: [black],
     sizes: apparelSizes,
     details: [
@@ -108,7 +108,7 @@ export const products: Product[] = [
       "Double-wall vacuum insulation keeps drinks cold for 24 hours or hot for 12. The flip-up sport cap makes one-handed sipping easy on the move.",
     category: "drinkware",
     price: 29,
-    images: ["/images/gourde2.webp"],
+    images: ["/images/take/take-bottle-sport.webp"],
     colors: [black],
     sizes: [],
     details: [
@@ -133,7 +133,7 @@ export const products: Product[] = [
       "Our everyday bottle with a flexible carry loop. Powder-coated for grip and finished with a laser-etched emblem that will never peel.",
     category: "drinkware",
     price: 22,
-    images: ["/images/gourde1.webp"],
+    images: ["/images/take/take-bottle-loop.webp"],
     colors: [black],
     sizes: [],
     details: [
@@ -159,7 +159,7 @@ export const products: Product[] = [
     category: "t-shirts",
     price: 26,
     compareAtPrice: 39,
-    images: ["/images/t-shirt1.webp", "/images/t-shirt2.webp"],
+    images: ["/images/take/take-tee-back.webp", "/images/take/take-tee-front.webp"],
     colors: [black, bone],
     sizes: apparelSizes,
     details: [
@@ -184,7 +184,7 @@ export const products: Product[] = [
       "The tee you will reach for first. A clean chest emblem on soft combed cotton with a regular fit that works on its own or under a jacket.",
     category: "t-shirts",
     price: 19,
-    images: ["/images/t-shirt2.webp", "/images/t-shirt1.webp"],
+    images: ["/images/take/take-tee-front.webp", "/images/take/take-tee-back.webp"],
     colors: [black, bone],
     sizes: apparelSizes,
     details: [
@@ -203,14 +203,14 @@ export const products: Product[] = [
   {
     id: "p_007",
     slug: "california-long-sleeve",
-    name: "California Long Sleeve",
+    name: "Take Studio Long Sleeve",
     tagline: "Upper-back print, relaxed fit",
     description:
       "A relaxed long sleeve with a crisp upper-back print. Ribbed cuffs keep sleeves in place whether pushed up or worn long.",
     category: "long-sleeves",
     price: 36,
     compareAtPrice: 48,
-    images: ["/images/t-shirt-l1.webp", "/images/t-shirt-l3.webp"],
+    images: ["/images/take/take-long-back.webp", "/images/take/take-long-low.webp"],
     colors: [black],
     sizes: apparelSizes,
     details: [
@@ -235,7 +235,7 @@ export const products: Product[] = [
       "A brushed-cotton long sleeve with a small front logo. Soft on the inside, structured on the outside, and built to last season after season.",
     category: "long-sleeves",
     price: 34,
-    images: ["/images/t-shirt-l2.webp"],
+    images: ["/images/take/take-long-front.webp"],
     colors: [black, charcoal],
     sizes: apparelSizes,
     details: [
@@ -260,7 +260,7 @@ export const products: Product[] = [
       "A washed-black long sleeve with a low-placed back print for a subtle, considered look. Garment-washed for softness and minimal shrinkage.",
     category: "long-sleeves",
     price: 38,
-    images: ["/images/t-shirt-l3.webp", "/images/t-shirt-l1.webp"],
+    images: ["/images/take/take-long-low.webp", "/images/take/take-long-back.webp"],
     colors: [black],
     sizes: apparelSizes,
     details: [

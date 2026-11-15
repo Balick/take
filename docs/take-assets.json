@@ -1,0 +1,43 @@
+{
+  "generator": "Built-in image_gen",
+  "brand": "Take (fictional demo label)",
+  "assets": [
+    {
+      "file": "public/images/take/take-tee-back.webp",
+      "subject": "Rear view of a washed black heavyweight short sleeve cotton T-shirt, boxy relaxed fit, white circular geometric print on upper back containing the exact word TAKE in simple sans serif."
+    },
+    {
+      "file": "public/images/take/take-tee-front.webp",
+      "subject": "Front view of a washed black short sleeve cotton T-shirt, regular fit, small off-white TAKE wordmark on left chest."
+    },
+    {
+      "file": "public/images/take/take-long-back.webp",
+      "subject": "Rear view of a black long sleeve cotton crewneck shirt with ribbed cuffs, white TAKE wordmark across upper back."
+    },
+    {
+      "file": "public/images/take/take-long-front.webp",
+      "subject": "Front view of a charcoal black brushed cotton long sleeve crewneck shirt, small off-white TAKE wordmark on left chest, ribbed cuffs."
+    },
+    {
+      "file": "public/images/take/take-long-low.webp",
+      "subject": "Rear view of a washed black long sleeve cotton crewneck shirt, small off-white TAKE wordmark near lower back hem, otherwise plain."
+    },
+    {
+      "file": "public/images/take/take-beanie.webp",
+      "subject": "Charcoal rib-knit wool beanie with deep folded cuff, small rectangular cream woven label on front reading TAKE in simple black sans serif."
+    },
+    {
+      "file": "public/images/take/take-dress.webp",
+      "subject": "Black rib-knit midi dress, thin cream contrast shoulder straps and cream scoop-neck piping, minimal athletic silhouette, no text or logo."
+    },
+    {
+      "file": "public/images/take/take-bottle-loop.webp",
+      "subject": "Matte black powder coated stainless steel water bottle with screw cap and flexible black carry loop, small off-white TAKE wordmark vertically on front."
+    },
+    {
+      "file": "public/images/take/take-bottle-sport.webp",
+      "subject": "Matte black insulated stainless steel 600ml water bottle with black flip-up sport spout lid, small off-white TAKE wordmark vertically on front."
+    }
+  ],
+  "commonPrompt": "Use case: product-mockup. Asset: single e-commerce product photograph for fictional independent essentials label Take. [SUBJECT] Photorealistic premium studio photography, centered entire item visible with generous whitespace margins, straight-on view, isolated on pure white background, subtle natural soft shadow only. Clothing presented as neatly arranged flat lay, no model, no mannequin, no hanger. Detailed realistic materials. Portrait 4:5 composition. Black and ivory palette. Only fictional TAKE branding where requested. Original design, no existing brand logos, no numbers, no watermark, no collage, no extra objects."
+}

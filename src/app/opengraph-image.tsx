@@ -43,7 +43,9 @@ export default function OpengraphImage() {
               letterSpacing: -0.5,
             }}
           >
-            {siteConfig.shortName}
+            <svg width="40" height="40" viewBox="0 0 32 32">
+              <path d="M8 8h16v5h-6v11h-5V13H8zM21 16h3v8h-3z" fill="#0a0a0a" />
+            </svg>
           </div>
           <div
             style={{

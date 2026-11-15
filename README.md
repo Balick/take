@@ -1,4 +1,4 @@
-# Next.js Storefront Template
+# Take — Next.js Storefront Template
 
 A modern, open-source e-commerce template built with **Next.js 16**, **React 19**, **Tailwind CSS v4** and **shadcn/ui**. Free to use for your own store, client projects or as a learning resource.
 
@@ -102,7 +102,9 @@ Deploy on [Vercel](https://vercel.com/new) or any platform that supports Next.js
 ## Credits
 
 - UI components by [shadcn/ui](https://ui.shadcn.com)
-- Product photos by [Ryan Hoffman](https://unsplash.com/@ryanhoffman007) on Unsplash
+- Take is a fictional demo label. Its geometric SVG identity was created for this template.
+- Product visuals in `public/images/take` were generated with the built-in image generation tool. Prompts and asset provenance: [docs/take-assets.md](docs/take-assets.md).
+- The fictional demo name is not a trademark clearance or a guarantee of deployment platform approval.
 
 ## License
 
